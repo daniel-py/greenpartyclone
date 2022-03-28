@@ -1,0 +1,14 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/bebas-neue');
+
+* {
+
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    font-family: 'Bebas Neue', sans-serif;                             
+}
