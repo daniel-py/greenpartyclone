@@ -2,7 +2,9 @@
 @import url('http://fonts.cdnfonts.com/css/bebas-neue');
 
 * {
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,5 +12,14 @@ body {
 }
 
 nav {
-    font-family: 'Bebas Neue', sans-serif;                             
+
+}
+
+.nav-container {
+    font-family: 'Bebas Neue', sans-serif;   
+    width: 80%;
+    margin: auto;  
+    padding: 10px;    
+    height: 100%;    
+    display: flex;                
 }
