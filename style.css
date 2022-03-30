@@ -73,16 +73,33 @@ header {
 
 header .form-container {
     align-self: center;
-    width: 40%;
+    width: 34%;
+}
 
+header .form-container form {
+    padding: 6em;
+}
+
+header .form-container form > * {
+    display: block;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 2em;
+    width: 100%;
 }
 
 header .header-image-container {
     height: 100%;
-    width: 60%;
+    width: 66%;
     background-image: url("images/womanspeaking.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-left: 2rem;
+}
+
+header .header-image-text {
+    position: absolute;
+    top: 30%;
+
 }
