@@ -65,8 +65,24 @@ nav {
 header {
     display: flex;
     align-items: center;
+    margin-top: 80px;
+    height: 615px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 header .form-container {
+    align-self: center;
+    width: 40%;
 
+}
+
+header .header-image-container {
+    height: 100%;
+    width: 60%;
+    background-image: url("images/womanspeaking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
