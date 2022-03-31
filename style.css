@@ -132,10 +132,10 @@ form p {
     font-weight: bolder;
     background-color: #52df00;
     padding: .05em .2em;
-    transform: rotate(-6deg);
+    transform: rotate(-5deg);
 }
 
-.header-image-text p:nth-child(2) span {
+.header-image-text p:nth-child(2) {
     display: inline-block;
     color: #52df00;
     font-size: 3em;
@@ -143,6 +143,15 @@ form p {
     background-color: black;
     padding: .02em .2em;
     margin-top: ;
-    transform: rotate(4deg) translate(3px, 17px);
+    transform: rotate(4deg) translate(3px, 15px);
 
+}
+
+.header-image-text p:last-child, .header-image-text p:nth-child(3) {
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+    background-color: ;
+    margin-top: 7px;
+    transform: translate(20px, 0);
 }
