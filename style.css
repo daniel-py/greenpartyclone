@@ -49,7 +49,7 @@ nav {
     font-weight: bolder;
 }
 
-.nav-container button {
+.nav-container button, header .form-container form input[type="button"] {
     font-family: "Bebas Neue";
     text-shadow: 0px 2px rgba(0, 0, 0, .2);
     background-color: #52df00;
@@ -85,6 +85,13 @@ header .form-container form > * {
     font-family: 'Bebas Neue', sans-serif;
     margin-top: 2em;
     width: 100%;
+}
+
+header .form-container form input {
+    height: 2em;
+    padding: 1em;
+    border: 2px solid #52df00;
+    text-transform: capitalize;
 }
 
 header .header-image-container {
