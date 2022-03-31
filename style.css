@@ -49,7 +49,7 @@ nav {
     font-weight: bolder;
 }
 
-.nav-container button, header .form-container form input[type="button"] {
+.nav-container button, header input[type="button"] {
     font-family: "Bebas Neue";
     text-shadow: 0px 2px rgba(0, 0, 0, .2);
     background-color: #52df00;
@@ -58,7 +58,7 @@ nav {
     border: none;
 }
 
-.nav-container button:hover {
+.nav-container button:hover, header input[type="button"]:hover {
     background-color: black;
 }
 
@@ -76,25 +76,39 @@ header .form-container {
     width: 34%;
 }
 
-header .form-container form {
+header  form {
     padding: 6em;
 }
 
-header .form-container form > * {
+header form > * {
     display: block;
     font-family: 'Bebas Neue', sans-serif;
-    margin-top: 2em;
+    margin-top: 1em;
     width: 100%;
 }
 
-header .form-container form input {
-    height: 2em;
+header input {
+    height: 3em;
     padding: 1em;
     border: 2px solid #52df00;
     text-transform: capitalize;
 }
 
-header .header-image-container {
+header input[type="button"] {
+    height: initial;
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 6px 15px;
+    line-height: initial;
+}
+
+form p {
+    font-style: oblique;
+    font-size: smaller;
+    letter-spacing: .5px;
+}
+
+.header-image-container {
     height: 100%;
     width: 66%;
     background-image: url("images/womanspeaking.jpg");
@@ -103,6 +117,7 @@ header .header-image-container {
     background-position: center;
     position: relative;
     margin-left: 2rem;
+    z-index: -1;
 }
 
 header .header-image-text {
