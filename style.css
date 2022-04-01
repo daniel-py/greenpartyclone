@@ -111,7 +111,7 @@ form p {
 .header-image-container {
     height: 100%;
     width: 66%;
-    background-image: url("images/womanspeaking.jpg");
+    background-image: linear-gradient(to top right, rgba(0,0,0,0.9), rgba(0,0,0,0)), url("images/womanspeaking.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -151,9 +151,9 @@ form p {
     color: white;
     font-size: 4em;
     font-weight: bolder;
-    background-color: ;
+    line-height: 1em;
     margin-top: ;
-    transform: translate(1.6em, -1.2em);
+    transform: translate(1.5em, -0.6em);
     white-space: pre;
-    text-align: left;
+    
 }
