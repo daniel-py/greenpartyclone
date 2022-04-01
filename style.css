@@ -9,6 +9,12 @@
 
 body {
     font-family: 'Helvetica Neue', sans-serif;
+    color: #212529;
+}
+
+a {
+    text-decoration: none;
+    color: #212529;
 }
 
 nav {
@@ -73,7 +79,8 @@ header {
 
 header .form-container {
     align-self: center;
-    width: 34%;
+    flex: 1;
+    /* width: 34%; */
 }
 
 header  form {
@@ -110,7 +117,8 @@ form p {
 
 .header-image-container {
     height: 100%;
-    width: 66%;
+    flex: 2;
+    /* width: 66%; */
     background-image: linear-gradient(to top right, rgba(0,0,0,0.9), rgba(0,0,0,0)), url("images/womanspeaking.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +148,7 @@ form p {
     color: #52df00;
     font-size: 3em;
     font-weight: bolder;
-    background-color: black;
+    background-color: #212529;
     padding: .02em .2em;
     margin-top: ;
     transform: rotate(4deg) translate(3px, 15px);
@@ -156,4 +164,31 @@ form p {
     transform: translate(1.5em, -0.6em);
     white-space: pre;
     
+}
+
+#after-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13em;
+}
+
+#after-header p {
+    flex: 1;
+    border: ;
+}
+
+#after-header h2 {
+    font-family: 'Helvetica Neue', sans-serif;
+    flex: 2;
+    border: ;
+    align-self: flex-start;
+    letter-spacing: -1.3px;
+    padding: 1em;
+    word-spacing: 2px;
+}
+
+header a, #after-header a {
+    border-bottom: solid  #52df00 .1em;
 }
