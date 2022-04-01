@@ -192,3 +192,8 @@ form p {
 header a, #after-header a {
     border-bottom: solid  #52df00 .1em;
 }
+#after-header span {
+    background-image: linear-gradient(to bottom, white 30%, black 30% 70%, white 70%);
+    padding: 0;
+    border-bottom: none;
+}
