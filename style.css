@@ -210,17 +210,26 @@ header a {
 
 #section-1 div:first-child {
     flex: 1;
-    margin: 2em 2em;
-    position: relative;
-    padding: 2em 0;
+    margin: 0 3em;
+    position: ;
+    margin-left: 8em;
+    padding: 0 3em;
 }
 
 #section-1 h1 {
     font-size: 4em;
     font-weight: bolder;
+    white-space: pre;
+    z-index: 1;
 }
+
+#section-1 div:first-child svg {
+    transform: translate(0, -2em);
+    z-index: ;
+}
+
 
 #section-1 div:last-child {
     flex: 1.5;
-    margin: 2em 2em;
+    margin: 0 2em;
 }
