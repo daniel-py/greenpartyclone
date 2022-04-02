@@ -22,6 +22,7 @@ nav {
     background-color: white;
     height: 84px;
     position: fixed;
+    z-index: 2;
     top: 0;
     right: 0;
     left: 0;
@@ -129,7 +130,7 @@ header a {
     background-position: center;
     position: relative;
     margin-left: 2rem;
-    z-index: -1;
+    z-index: 1;
 }
 
 .header-image-text {
@@ -211,23 +212,31 @@ header a {
 #section-1 div:first-child {
     flex: 1;
     margin: 0 3em;
-    position: ;
+    position: relative;
     margin-left: 8em;
     padding: 0 3em;
 }
 
-#section-1 h1 {
-    font-size: 4em;
+#section-1 div:first-child h1 {
+    font-size: 3.5em;
     font-weight: bolder;
-    white-space: pre;
+    position: relative;
     z-index: 1;
+    white-space: pre;
 }
 
 #section-1 div:first-child svg {
     transform: translate(0, -2em);
-    z-index: ;
+    position: relative;
+    z-index: 0;
 }
 
+#section-1 div:first-child p {
+    line-height: 1em;
+    font-size: larger;
+    margin-top: 1em;
+    
+}
 
 #section-1 div:last-child {
     flex: 1.5;
