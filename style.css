@@ -176,11 +176,11 @@ header a {
     justify-content: space-between;
     align-items: center;
     height: 13em;
+    /* background-image: linear-gradient(to bottom right, rgba(0,0,0,0.05),  rgba(0,0,0,0)); */
 }
 
 #after-header p {
     flex: 1;
-    border: ;
 }
 
 #after-header h2 {
@@ -200,4 +200,27 @@ header a {
     background-image: linear-gradient(to bottom, white 30%, #212529 30% 70%, white 70%);
     padding: 0;
     border-bottom: none;
+}
+
+#section-1 {
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-1 div:first-child {
+    flex: 1;
+    margin: 2em 2em;
+    position: relative;
+    padding: 2em 0;
+}
+
+#section-1 h1 {
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+#section-1 div:last-child {
+    flex: 1.5;
+    margin: 2em 2em;
 }
