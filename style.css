@@ -115,6 +115,10 @@ form p {
     letter-spacing: .5px;
 }
 
+header a {
+    border-bottom: solid  #52df00 .1em;
+}
+
 .header-image-container {
     height: 100%;
     flex: 2;
@@ -189,11 +193,11 @@ form p {
     word-spacing: 2px;
 }
 
-header a, #after-header a {
-    border-bottom: solid  #52df00 .1em;
+#after-header a {
+    border-bottom: solid  #52df00 .2em;
 }
 #after-header span {
-    background-image: linear-gradient(to bottom, white 30%, black 30% 70%, white 70%);
+    background-image: linear-gradient(to bottom, white 30%, #212529 30% 70%, white 70%);
     padding: 0;
     border-bottom: none;
 }
