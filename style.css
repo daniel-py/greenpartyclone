@@ -231,14 +231,28 @@ header a {
     z-index: 0;
 }
 
+#section-1 div:first-child h4 {
+    line-height: 1.5em;
+    font-size: larger;
+    word-spacing: .2em;
+
+}
+
 #section-1 div:first-child p {
-    line-height: 1em;
+    line-height: 1.3em;
     font-size: larger;
     margin-top: 1em;
-    
+    letter-spacing: .5px;
+    word-spacing: .1em;
+    font-weight: 2px;
 }
 
 #section-1 div:last-child {
     flex: 1.5;
     margin: 0 2em;
+}
+
+#section-1 div:last-child img {
+    transform: translate(0px, -110%);
+    margin-left: 1.2em;
 }
