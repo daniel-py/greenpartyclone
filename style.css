@@ -256,3 +256,13 @@ header a {
     transform: translate(0px, -110%);
     margin-left: 1.2em;
 }
+
+#section-2 {
+    background-image: url("images/section2background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    /* -webkit-filter: blur(8px) */
+    width: 100%;
+}
