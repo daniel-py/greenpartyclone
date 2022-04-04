@@ -124,10 +124,10 @@ header a {
     height: 100%;
     flex: 2;
     /* width: 66%; */
-    background-image: linear-gradient(to top right, rgba(0,0,0,0.9), rgba(0,0,0,0)), url("images/womanspeaking.jpg");
+    background-image: linear-gradient(to top right, rgba(0,0,0,0.9), 35%, rgba(0,0,0,0)), url("images/womanspeaking.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left center;
     position: relative;
     margin-left: 2rem;
     z-index: 1;
@@ -298,7 +298,8 @@ header a {
 
 #section-2-content > div:first-child {
     flex: 1;
-    padding: 3em;
+    padding: 12em 12em 0;
+    padding-right: 3em;
     /* display: flex;
     flex-direction: column;
     justify-content: center;
