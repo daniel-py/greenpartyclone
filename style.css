@@ -364,9 +364,24 @@ header a {
 #section-3 > div:first-child {
     flex: 1.5;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
 }
 
-#section-3 > div:first-child 
+#section-3 > div:first-child > div:first-child {
+    /* position: absolute;
+    top: 0;
+    right: 0; */
+    align-self: flex-end;
+}
+
+#section-3 > div:first-child > div:last-child {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    align-self: flex-start;
+}
 
 #section-3 > div:last-child {
     flex: 1;
