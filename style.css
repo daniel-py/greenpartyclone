@@ -362,11 +362,12 @@ header a {
 }
 
 #section-3 > div:first-child {
-    flex: 1.5;
+    flex: 1.2;
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 0 3em;
+    padding: 0 2em;
+    margin-right: 3em;
 }
 
 #section-3 > div:first-child > div:first-child {
@@ -374,6 +375,13 @@ header a {
     top: 0;
     right: 0; */
     align-self: flex-end;
+    position: relative;
+}
+
+#section-3 > div:first-child > div:first-child > img {
+    position: absolute;
+    right: 1.8em;
+    top: 1.8em;
 }
 
 #section-3 > div:first-child > div:last-child {
@@ -381,6 +389,18 @@ header a {
     bottom: 0;
     left: 0; */
     align-self: flex-start;
+    position: relative;
+    transform: translate(25%, -50%);
+}
+
+#section-3 > div:first-child > div:last-child > div {
+    position: absolute;
+    right: .8em;
+    top: 1em;
+    background-color: white;
+    height: 80%;
+    width: 90%;
+    padding: 2em 1em;
 }
 
 #section-3 > div:last-child {
