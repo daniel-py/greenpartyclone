@@ -267,7 +267,7 @@ header a {
     position: relative;
     height: 87vh;
     font-family: 'Bebas Neue', sans-serif;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     overflow: hidden;
 }
 
@@ -352,4 +352,22 @@ header a {
     left: 0;
     bottom: -4em;
     transform: rotate(-3deg);
+}
+
+#section-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#section-3 > div:first-child {
+    flex: 1.5;
+    position: relative;
+}
+
+#section-3 > div:first-child 
+
+#section-3 > div:last-child {
+    flex: 1;
 }
