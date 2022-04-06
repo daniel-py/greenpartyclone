@@ -1,5 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
 @import url('http://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
 
 * {
     margin: 0;
@@ -400,24 +402,33 @@ header a {
     background-color: white;
     height: 80%;
     width: 90%;
-    padding: 2em 1em;
+    padding: 2em 1.5em;
 }
 
 #section-3 > div:first-child > div:last-child > div a {
     font-weight: bolder;
     font-size: larger;
-    word-spacing: .2em;
-    letter-spacing: .05em;
+    word-spacing: .1em;
+    letter-spacing: .04em;
     vertical-align: bottom;
 }
 
 #section-3 > div:first-child > div:last-child > div p {
-    word-spacing: .2em;
-    letter-spacing: .05em;
-    margin-top: 1em;
+    word-spacing: ;
+    letter-spacing: .;
+    margin-top: .4em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
 }
 
 #section-3 > div:last-child {
     flex: 1;
-    margin-right: 3em;
+    margin-right: 10em;
 }
+
+
+font-size: 3.5em;
+font-weight: bolder;
+position: relative;
+z-index: 1;
+white-space: pre;
