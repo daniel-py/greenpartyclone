@@ -367,7 +367,7 @@ header a {
     display: flex;
     flex-direction: column;
     padding: 0 2em;
-    margin-right: 3em;
+    margin-right: 2.5em;
 }
 
 #section-3 > div:first-child > div:first-child {
@@ -390,7 +390,7 @@ header a {
     left: 0; */
     align-self: flex-start;
     position: relative;
-    transform: translate(25%, -50%);
+    transform: translate(5%, -50%);
 }
 
 #section-3 > div:first-child > div:last-child > div {
@@ -403,6 +403,21 @@ header a {
     padding: 2em 1em;
 }
 
+#section-3 > div:first-child > div:last-child > div a {
+    font-weight: bolder;
+    font-size: larger;
+    word-spacing: .2em;
+    letter-spacing: .05em;
+    vertical-align: bottom;
+}
+
+#section-3 > div:first-child > div:last-child > div p {
+    word-spacing: .2em;
+    letter-spacing: .05em;
+    margin-top: 1em;
+}
+
 #section-3 > div:last-child {
     flex: 1;
+    margin-right: 3em;
 }
