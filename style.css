@@ -490,5 +490,25 @@ footer div:first-child {
     width: 85%;
     margin: auto;
 }
+footer > div:first-child > div:first-child {
+    flex: 1;
+    position: relative;
+}
+footer div:first-child div:first-child h2 {
+    font-size: 2.8rem;
+    font-weight: bolder;
+    position: absolute;
+    text-align: right;
+    white-space: pre;
+    padding-right: 2rem;
+    border: 1px  red;
+    top: 4.5rem;
+    left: 5rem;
+    z-index: ;
+}
 
-footer div:first-child 
+
+footer > div:first-child > div:last-child {
+    flex: 1.5;
+    align-self: flex-end;
+}
