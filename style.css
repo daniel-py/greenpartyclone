@@ -92,7 +92,7 @@ header  form {
 
 header form > * {
     display: block;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin-top: 1em;
     width: 100%;
 }
@@ -113,6 +113,7 @@ header input[type="button"] {
 }
 
 form p {
+    font-family: 'Oswald', sans-serif;
     font-style: oblique;
     font-size: smaller;
     letter-spacing: .5px;
@@ -206,7 +207,7 @@ header a {
 }
 
 #section-1 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     display: flex;
     justify-content: space-between;
     margin-bottom: 9em;
@@ -237,7 +238,7 @@ header a {
 #section-1 div:first-child h4 {
     line-height: 1.5em;
     font-size: larger;
-    word-spacing: .2em;
+    word-spacing: .1em;
 
 }
 
@@ -245,6 +246,7 @@ header a {
     line-height: 1.3em;
     font-size: larger;
     margin-top: 1em;
+    font-weight: 300;
     letter-spacing: .5px;
     word-spacing: .1em;
     font-weight: 2px;
@@ -268,7 +270,7 @@ header a {
 #section-2 {
     position: relative;
     height: 87vh;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin-bottom: 3em;
     overflow: hidden;
 }
@@ -319,7 +321,7 @@ header a {
     white-space: pre;
     font-size: 3em;
     padding-right: 2.3em;
-    margin-right: 0em;
+    margin-right: 2em;
     color: #212529;
     transform: rotate(-6deg);
 }
@@ -360,7 +362,7 @@ header a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 #section-3 > div:first-child {
@@ -423,12 +425,14 @@ header a {
 
 #section-3 > div:last-child {
     flex: 1;
-    margin-right: 10em;
-    margin-top: 2em;
+    margin-right: rem;
+    margin-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 6rem;
 }
 
 #section-3 > div:last-child > div:first-child > h2 {
-    font-size: 3.5em;
+    font-size: 2.8rem;
     font-weight: bolder;
     position: relative;
     z-index: 1;
