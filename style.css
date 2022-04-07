@@ -363,6 +363,7 @@ header a {
     justify-content: space-between;
     margin-bottom: 3em;
     font-family: 'Oswald', sans-serif;
+    color: #212529;
 }
 
 #section-3 > div:first-child {
@@ -475,3 +476,19 @@ header a {
     margin-top: .25em;
     margin-left: .2em;
 }
+
+footer {
+    color: white;
+    background-color:  #212529;
+    padding: 1rem 0 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer div:first-child {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+footer div:first-child 
