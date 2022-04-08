@@ -480,21 +480,23 @@ header a {
 footer {
     color: white;
     background-color:  #212529;
-    padding: 1rem 0 2rem;
+    padding:  0 2rem;
     font-family: 'Oswald', sans-serif;
 }
 
 footer div:first-child {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin-left: 4%;
-    margin-right: 10%;
+    width: 85%;
+    /* margin-left: 4%;
+    margin-right: 10%; */
+    margin: auto;
 }
 footer > div:first-child > div:first-child {
     flex: 1;
     position: relative;
 }
+
 footer div:first-child div:first-child h2 {
     font-size: 2.8rem;
     font-weight: bolder;
@@ -513,11 +515,24 @@ footer > div:first-child > div:last-child {
     flex: 1.5;
     align-self: flex-end;
     margin-top: 4rem;
-    
+    padding-left: 3rem;
+    /* border: 1px solid red; */
 }
 
 footer > div:first-child > div:last-child > * {
     margin-bottom: 2rem;
     line-height: 1.8rem;
     font-size: larger;
+    font-weight: 300;
+}
+
+footer > div:first-child > div:last-child >  {
+
+}
+
+footer > div:nth-child(2) {
+    width: 80%;
+    margin: auto;
+    /* margin-left: 4%;
+    margin-right: 10%; */
 }
