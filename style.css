@@ -514,7 +514,7 @@ footer div:first-child div:first-child h2 {
 footer > div:first-child > div:last-child {
     flex: 1.5;
     align-self: flex-end;
-    margin-top: 4rem;
+    margin-top: 7rem;
     padding-left: 3rem;
     /* border: 1px solid red; */
 }
@@ -523,16 +523,31 @@ footer > div:first-child > div:last-child > * {
     margin-bottom: 2rem;
     line-height: 1.8rem;
     font-size: larger;
-    font-weight: 300;
+    font-weight: 200;
 }
 
-footer > div:first-child > div:last-child >  {
-
+footer > div:first-child > div:last-child > h4 {
+    font-weight: bold;
 }
 
 footer > div:nth-child(2) {
     width: 80%;
     margin: auto;
+    position: relative;
     /* margin-left: 4%;
     margin-right: 10%; */
+    color: black;
+}
+
+footer > div:nth-child(2) > div {
+    /* position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0; */
+    height: ;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    /* height: 100%; */
+
 }
