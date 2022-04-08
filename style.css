@@ -487,8 +487,9 @@ footer {
 footer div:first-child {
     display: flex;
     justify-content: space-between;
-    width: 85%;
-    margin: auto;
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 10%;
 }
 footer > div:first-child > div:first-child {
     flex: 1;
@@ -500,8 +501,8 @@ footer div:first-child div:first-child h2 {
     position: absolute;
     text-align: right;
     white-space: pre;
-    padding-right: 2rem;
-    border: 1px  red;
+    margin-right: 2rem;
+    
     top: 4.5rem;
     left: 5rem;
     z-index: ;
@@ -511,4 +512,12 @@ footer div:first-child div:first-child h2 {
 footer > div:first-child > div:last-child {
     flex: 1.5;
     align-self: flex-end;
+    margin-top: 4rem;
+    
+}
+
+footer > div:first-child > div:last-child > * {
+    margin-bottom: 2rem;
+    line-height: 1.8rem;
+    font-size: larger;
 }
