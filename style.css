@@ -584,3 +584,13 @@ footer > div:nth-child(2) > div > div:last-child > * {
     padding: 1em 1em;
     font-size: ;
 }
+
+footer ul {
+    list-style-type: none;
+    color: white;
+}
+
+footer ul li a {
+    color: white;
+    border: 1px solid red;
+}
