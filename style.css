@@ -536,7 +536,7 @@ footer > div:nth-child(2) {
     position: relative;
     /* margin-left: 4%;
     margin-right: 10%; */
-    color: black;
+    color: #212529;
 }
 
 footer > div:nth-child(2) > div {
@@ -594,13 +594,35 @@ footer ul {
     text-align: right;
 }
 
-footer ul li > a {
-    color: white;
-    border-bottom: .3rem solid #52df00;
-}
 
 footer ul li {
     color: white;
     display: inline-block;
     margin-left: 2rem;
+}
+
+footer ul li > a {
+    color: white;
+    border-bottom: .2rem solid #52df00;
+}
+
+footer ul li:last-child span {
+    margin-right: 2rem;
+}
+
+footer ul li:last-child a {
+    margin-left: .6rem;
+}
+
+footer > div:last-child {
+    width: ;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer > div:last-child > p {
+    font-weight: lighter;
+    font-size: smaller;
+    text-align: center;
+    padding-bottom: 1rem;
 }
