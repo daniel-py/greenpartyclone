@@ -587,10 +587,20 @@ footer > div:nth-child(2) > div > div:last-child > * {
 
 footer ul {
     list-style-type: none;
-    color: white;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    /* margin-left: 45%; */
+    text-align: right;
 }
 
-footer ul li a {
+footer ul li > a {
     color: white;
-    border: 1px solid red;
+    border-bottom: .3rem solid #52df00;
+}
+
+footer ul li {
+    color: white;
+    display: inline-block;
+    margin-left: 2rem;
 }
