@@ -629,12 +629,22 @@ footer ul li > a {
     border-bottom: .2rem solid #52df00;
 }
 
+footer ul li > a:hover {
+    border-bottom: .2rem solid white;
+}
+
 footer ul li:last-child span {
     margin-right: 2rem;
 }
 
 footer ul li:last-child a {
     margin-left: .6rem;
+}
+
+footer ul li:last-child a:hover {
+    /* fill: white !important; */
+    filter:  brightness(0) invert(1);
+
 }
 
 footer > div:last-child {
