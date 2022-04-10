@@ -571,18 +571,35 @@ footer > div:nth-child(2) > div > div:first-child > h2 {
 footer > div:nth-child(2) > div > div:last-child  {
     flex: 1;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    gap: 2rem;
+    align-items: ;
+    border: 1px dotted red;
 }
 
 footer > div:nth-child(2) > div > div:last-child > * {
-    flex: ;
-    display: inline-block;
+    font-family: ;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    height: 40%;
+    border: 1px solid brown;
+    margin-top: 0;
+
+}
+
+footer > div:nth-child(2) > div > div:last-child button {
+    flex: 1;
+    /* display: inline-block;
     height: fit-content;
     width: fit-content;
-    padding: 1em 1em;
-    font-size: ;
+    padding: .3em .3em; */
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #52df00;
+    color: #212529;
+    border: none;
 }
 
 footer ul {
