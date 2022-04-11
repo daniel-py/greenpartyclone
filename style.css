@@ -304,7 +304,7 @@ header a {
 
 #section-2-content > div:first-child {
     flex: 1;
-    padding: 12em 12em 0;
+    padding: 6.3em 12em 0;
     padding-right: 0em;
     /* display: flex;
     flex-direction: column;
@@ -314,16 +314,17 @@ header a {
 }
 
 #section-2-content > div:first-child h2 {
-    width: min-content;
-    /* inline-size: min-content; */
+    /* width: min-content;
+    inline-size: min-content; 
     height: min-content;
     background-color: #52df00;
-    white-space: pre;
-    font-size: 3em;
-    padding-right: 2.3em;
-    margin-right: 2em;
-    color: #212529;
-    transform: rotate(-6deg);
+    white-space: pre; */
+    font-size: 2.9rem;
+    /* padding-right: 2.3em; */
+    margin-right: 1rem;
+    margin-left: 4rem;
+    color: white;
+    /* transform: rotate(-6deg); */
 }
 
 #section-2-content > div:nth-child(2) {
