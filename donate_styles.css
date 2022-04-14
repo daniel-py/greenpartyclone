@@ -8,4 +8,20 @@
 
 body {
     font-size: 10px;
+    font-family: "Oswald", sans-serif;
+}
+
+header, section {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background-image: url("images/section2background.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+header > div:first-child {
+    display: flex;
 }
