@@ -6,32 +6,37 @@
     padding: 0;
 }
 
-body {
+html {
     font-size: 10px;
     font-family: "Oswald", sans-serif;
 }
 
 header, section {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
 header {
     background-image: url("images/section2background.jpg");
-    background-position: center center;
+    background-position: center 20%;
     background-size: cover;
+    height: 27rem;
 }
 
+
 header > div:first-child {
-    display: flex;
-    padding: 5rem 7rem 4rem;
+    width: 85%;
+    margin: auto;
     margin-top: ;
-    margin-bottom: ;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, 100%);
+    border: 1px solid red;
 }
 
 header > div > h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
-    margin-right: 2rem;
-    border: 1px solid red;
+    margin-right: ;
+    border: 1px  red;
 }
