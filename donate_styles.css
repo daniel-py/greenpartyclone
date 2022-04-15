@@ -21,6 +21,8 @@ header {
     background-position: center 20%;
     background-size: cover;
     height: 27rem;
+    position: relative;
+    margin-bottom: ;
 }
 
 
@@ -31,12 +33,30 @@ header > div:first-child {
     display: flex;
     justify-content: space-between;
     transform: translate(0, 100%);
-    border: 1px solid red;
+    border: 1px  red;
 }
 
 header > div > h1 {
     font-size: 6rem;
     color: white;
     margin-right: ;
+    vertical-align: baseline;
     border: 1px  red;
+}
+
+header > div:last-child {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: white;
+    font-size: large;
+}
+
+header > div:last-child > h3 > span {
+    color: #52df00;
+}
+
+#section-1 > * {
+    margin-top: 3rem;
+    font-size: 2rem;
 }
