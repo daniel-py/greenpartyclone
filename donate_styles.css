@@ -12,7 +12,7 @@ body {
 }
 
 header, section {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -24,4 +24,14 @@ header {
 
 header > div:first-child {
     display: flex;
+    padding: 5rem 7rem 4rem;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+header > div > h1 {
+    font-size: 4rem;
+    color: white;
+    margin-right: 2rem;
+    border: 1px solid red;
 }
