@@ -61,6 +61,32 @@ header > div:last-child > h3 > span {
     font-size: 1.8rem;
 }
 
-#section-2 h2 {
+#section-2 > h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #ccc;
+}
 
+#section-2 > form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section-2 > form > fieldset:first-child {
+    width: 50%;
+    flex: ;
+}
+
+#section-2 > form > fieldset:nth-child(2) {
+    width: 50%;
+    flex: ;
+}
+
+#section-2 > form > fieldset:last-child {
+    width: 50%;
+    flex: ;
 }
