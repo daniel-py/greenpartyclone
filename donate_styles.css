@@ -79,14 +79,23 @@ header > div:last-child > h3 > span {
 #section-2 > form > fieldset:first-child {
     width: 50%;
     flex: ;
+    order: 1;
 }
 
 #section-2 > form > fieldset:nth-child(2) {
     width: 50%;
     flex: ;
+    order: 3;
 }
 
 #section-2 > form > fieldset:last-child {
     width: 50%;
     flex: ;
+    order: 2;
+}
+
+#section-2 > form > fieldset:last-child > *{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
 }
