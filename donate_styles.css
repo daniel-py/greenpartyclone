@@ -88,6 +88,19 @@ header > div:last-child > h3 > span {
     order: 3;
 }
 
+#section-2 > form > fieldset:nth-child(2) > *{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+#section-2 > form > fieldset:nth-child(2) > input, #section-2 > form > fieldset:nth-child(2) > select {
+    padding: 1rem;
+    color: black;
+    border: 1px solid black;
+}
+
 #section-2 > form > fieldset:last-child {
     width: 50%;
     flex: ;
