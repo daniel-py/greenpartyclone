@@ -100,10 +100,20 @@ header > div:last-child > h3 > span {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
 }
 
 #section-2 > form > fieldset:last-child > input, #section-2 > form > fieldset:last-child > select {
     padding: 1rem;
     color: black;
     border: 1px solid black;
+}
+
+#e-update-no {
+    /* display: inline-block; */
+    margin-left: 2rem;
+}
+
+#section-2 > form > fieldset:last-child > input["type"="submit"] {
+    border: 1px solid red;
 }
