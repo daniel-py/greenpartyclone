@@ -89,6 +89,21 @@ header > div:last-child > h3 > span {
     order: 1;
 }
 
+#support {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#support > *{
+    flex: 1;
+    min-width: 3rem;
+    padding: 1.5rem;
+    border: 1px solid grey;
+    height: min-content;
+}
+
 #section-2 > form > fieldset:nth-child(2) {
     width: 50%;
     flex: ;
@@ -108,6 +123,11 @@ header > div:last-child > h3 > span {
     padding: 1rem;
     color: black;
     border: 1px solid black;
+}
+
+#section-2 > form > fieldset:nth-child(2) > input::placeholder {
+    color: black;
+    padding-left: .4rem;
 }
 
 #section-2 > form > fieldset:last-child {
@@ -132,9 +152,8 @@ header > div:last-child > h3 > span {
 }
 
 #section-2 > form > fieldset:last-child > input::placeholder {
-    color: red;
-    border: 1px solid red;
-    margin-left: 5rem;
+    color: black;
+    padding-left: .4rem;
 }
 
 #e-update-no {
