@@ -11,6 +11,12 @@ html {
     font-family: "Oswald", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: grey;
+    font-weight: normal;
+}
+
 header, section {
     width: 85%;
     margin: auto;
@@ -119,10 +125,16 @@ header > div:last-child > h3 > span {
     font-size: 1.3rem;
 }
 
-#section-2 > form > fieldset:last-child > input, #section-2 > form > fieldset:last-child > select {
+#section-2 > form > fieldset:last-child > input,  #section-2 > form > fieldset:last-child > select {
     padding: 1rem;
     color: black;
     border: 1px solid black;
+}
+
+#section-2 > form > fieldset:last-child > input::placeholder {
+    color: red;
+    border: 1px solid red;
+    margin-left: 5rem;
 }
 
 #e-update-no {
@@ -141,3 +153,9 @@ header > div:last-child > h3 > span {
 
 }
 
+#section-3 {
+    padding: 4rem 0;
+    border: 1px  blueviolet;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
