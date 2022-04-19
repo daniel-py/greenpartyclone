@@ -99,13 +99,19 @@ header > div:last-child > h3 > span {
     border: 1px solid blueviolet;
 }
 
-#support > *{
+#support > * {
     flex: 0 0 20%;
     /* min-width: rem; */
     padding: 0;
     border: 1px solid lightgrey;
     height: ;
     position: relative;
+}
+
+#support > div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #support > div > label {
@@ -123,17 +129,24 @@ header > div:last-child > h3 > span {
     opacity: 0;
 }
 
-#support > div > input[type="radio"]:checked + label{
+#support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover,
+#support > div:last-child input[placeholder="GBP Other"]:focus{
     background-color: #52df00;
+    color: white;
 }
 
 #support input[placeholder="GBP Other"] {
     width: 80%;
-    display: inline-block;
-    margin: auto !important;
-    margin-left: ;
-    height: 80%;
+    height: 80%;  
+    -moz-appearance: textfield;
+    padding: .5rem;
 }
+
+#support input[placeholder="GBP Other"]::-webkit-outer-spin-button, #support input[placeholder="GBP Other"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+
 
 #section-2 > form > fieldset:nth-child(2) {
     width: 50%;
