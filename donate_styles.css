@@ -95,14 +95,35 @@ header > div:last-child > h3 > span {
     justify-content: ;
     flex-wrap: wrap;
     gap: 1rem;
+    width: 80%;
+    border: 1px solid blueviolet;
 }
 
 #support > *{
-    flex: 0 0 25%;
-    min-width: rem;
-    padding: 1.5rem;
+    flex: 1 1 20%;
+    /* min-width: rem; */
+    padding: 0;
     border: 1px solid lightgrey;
     height: min-content;
+    position: relative;
+}
+
+#support > div > label {
+    display: inline-block;
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#support > div > input[type="radio"] {
+    position: absolute;
+    opacity: ;
+}
+
+#support input[placeholder="GBP Other"] {
+    width: 70%;
+    display: inline-block;
 }
 
 #section-2 > form > fieldset:nth-child(2) {
