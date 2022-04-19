@@ -130,9 +130,13 @@ header > div:last-child > h3 > span {
 }
 
 #support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover,
-#support > div:last-child input[placeholder="GBP Other"]:focus{
+div:last-child:focus{
     background-color: #52df00;
     color: white;
+}
+
+div:has(> input:focus) {
+    background-color: #52df00;
 }
 
 #support input[placeholder="GBP Other"] {
@@ -140,6 +144,10 @@ header > div:last-child > h3 > span {
     height: 80%;  
     -moz-appearance: textfield;
     padding: .5rem;
+}
+
+#support input[placeholder="GBP Other"]:focus {
+    outline: none;
 }
 
 #support input[placeholder="GBP Other"]::-webkit-outer-spin-button, #support input[placeholder="GBP Other"]::-webkit-inner-spin-button {
