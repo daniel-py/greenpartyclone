@@ -174,6 +174,17 @@ header > div:last-child > h3 > span {
     margin-top: .7rem;
 }
 
+#section-2 > form > fieldset:first-child > div:last-child > p:first-child {
+    padding: 3rem 0;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+}
+
+#section-2 > form > fieldset:first-child > div:last-child > p:first-child > a {
+    display: block;
+    margin-top: 2rem;
+}
+
 #section-2 > form > fieldset:nth-child(2) {
     width: 50%;
     flex: ;
