@@ -96,7 +96,8 @@ header > div:last-child > h3 > span {
     flex-wrap: wrap;
     gap: 1rem;
     width: 80%;
-    border: 1px solid blueviolet;
+    border: 1px  blueviolet;
+    margin-bottom: 1.3rem;
 }
 
 #support > * {
@@ -131,6 +132,7 @@ header > div:last-child > h3 > span {
 
 #support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover/*,
  div:last-child:focus*/{ 
+    transition: ;
     background-color: #52df00;
     color: white;
 }
@@ -154,6 +156,22 @@ header > div:last-child > h3 > span {
 
 #gbpotherr {
     position: absolute;
+}
+
+#support + div {
+    background-color: #ececec;
+    padding: 1.3rem;
+}
+
+#support + div > label{
+    font-size: 1.5rem;
+}
+
+#support + div > select{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: .7rem;
 }
 
 #section-2 > form > fieldset:nth-child(2) {
