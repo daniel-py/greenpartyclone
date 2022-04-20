@@ -88,6 +88,7 @@ header > div:last-child > h3 > span {
     flex: ;
     order: 1;
     border: none;
+    padding-right: 2rem;
 }
 
 #support {
@@ -133,8 +134,10 @@ header > div:last-child > h3 > span {
 #support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover/*,
  div:last-child:focus*/{ 
     transition: ;
-    background-color: #52df00;
+    background-color: green;
     color: white;
+    transition: background-color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
 
 #support input[placeholder="GBP Other"] {
@@ -171,18 +174,30 @@ header > div:last-child > h3 > span {
     display: block;
     width: 100%;
     padding: 1rem;
-    margin-top: .7rem;
+    margin: 1rem 0;
 }
 
 #section-2 > form > fieldset:first-child > div:last-child > p:first-child {
     padding: 3rem 0;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     font-size: 1.2rem;
 }
 
 #section-2 > form > fieldset:first-child > div:last-child > p:first-child > a {
-    display: block;
+    display: inline-block;
+    padding-left: 3rem;
+    margin-left: 3rem;
+    border-left: 1px solid grey;
+}
+
+#section-2 > form > fieldset:first-child > div:last-child > p:nth-child(2) {
     margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: #ececec;
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 1.5rem;
 }
 
 #section-2 > form > fieldset:nth-child(2) {
