@@ -129,14 +129,10 @@ header > div:last-child > h3 > span {
     opacity: 0;
 }
 
-#support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover,
-div:last-child:focus{
+#support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover/*,
+ div:last-child:focus*/{ 
     background-color: #52df00;
     color: white;
-}
-
-div:has(> input:focus) {
-    background-color: #52df00;
 }
 
 #support input[placeholder="GBP Other"] {
@@ -146,8 +142,9 @@ div:has(> input:focus) {
     padding: .5rem;
 }
 
-#support input[placeholder="GBP Other"]:focus {
+#support input[placeholder="GBP Other"]:focus  {
     outline: none;
+    content: "Enter Amt";
 }
 
 #support input[placeholder="GBP Other"]::-webkit-outer-spin-button, #support input[placeholder="GBP Other"]::-webkit-inner-spin-button {
@@ -155,6 +152,9 @@ div:has(> input:focus) {
   /* margin: 0; */
 }
 
+#gbpotherr {
+    position: absolute;
+}
 
 #section-2 > form > fieldset:nth-child(2) {
     width: 50%;
