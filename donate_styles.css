@@ -295,4 +295,22 @@ footer {
     width: 60%;
     margin: auto;
     border: 1px solid sandybrown;
+    text-align: center;
+}
+
+footer > h1 {
+    font-size: 7rem;
+}
+
+footer > h1 > span {
+    color: #52df00;
+}
+
+footer > p:first-of-type {
+    width: 70%;
+    font-size: 1.7rem;
+    margin: auto;
+
+    text-align: left;
+
 }
