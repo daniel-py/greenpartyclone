@@ -270,8 +270,22 @@ header > div:last-child > h3 > span {
 }
 
 #section-3 {
-    padding: 4rem 0;
+    padding: 7rem 0;
     border: 1px  blueviolet;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+#becomemember{
+    padding: 3rem 0;
+    text-align: center;
+    color: white;
+    font-weight: ;
+    font-size: 1.3rem;
+    background-color: black;
+
+}
+
+#becomemember > a {
+    color: white;    
 }
