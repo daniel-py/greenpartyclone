@@ -131,8 +131,8 @@ header > div:last-child > h3 > span {
     opacity: 0;
 }
 
-#support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover/*,
- div:last-child:focus*/{ 
+#support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover /*,
+#support > div > input[type="radio"]:checked ~ label */ { 
     transition: ;
     background-color: green;
     color: white;
@@ -145,11 +145,11 @@ header > div:last-child > h3 > span {
     height: 80%;  
     -moz-appearance: textfield;
     padding: .5rem;
+    font-family: "Oswald";
 }
 
 #support input[placeholder="GBP Other"]:focus  {
     outline: none;
-    content: "Enter Amt";
 }
 
 #support input[placeholder="GBP Other"]::-webkit-outer-spin-button, #support input[placeholder="GBP Other"]::-webkit-inner-spin-button {
@@ -181,6 +181,7 @@ header > div:last-child > h3 > span {
     padding: 3rem 0;
     border-bottom: 1px solid #ccc;
     font-size: 1.2rem;
+    letter-spacing: 1.5px;
 }
 
 #section-2 > form > fieldset:first-child > div:last-child > p:first-child > a {
@@ -193,7 +194,7 @@ header > div:last-child > h3 > span {
 #section-2 > form > fieldset:first-child > div:last-child > p:nth-child(2) {
     margin-top: 2rem;
     text-align: center;
-    padding: 2rem;
+    padding: 2.3rem;
     background-color: #ececec;
     border: 1px solid #ccc;
     color: black;
