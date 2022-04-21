@@ -287,5 +287,12 @@ header > div:last-child > h3 > span {
 }
 
 #becomemember > a {
-    color: white;    
+    color: white;
+    letter-spacing: 2px;
+}
+
+footer {
+    width: 60%;
+    margin: auto;
+    border: 1px solid sandybrown;
 }
