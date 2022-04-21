@@ -296,6 +296,7 @@ footer {
     margin: auto;
     border: 1px solid sandybrown;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 footer > h1 {
@@ -310,7 +311,15 @@ footer > p:first-of-type {
     width: 70%;
     font-size: 1.7rem;
     margin: auto;
-
     text-align: left;
+}
 
+footer > div:first-of-type > div{
+    floa
+}
+
+footer > div:last-child {
+    margin-top: 4rem;
+    line-height: 2rem;
+    letter-spacing: 2.5px;
 }
