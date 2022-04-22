@@ -316,7 +316,8 @@ footer > p:first-of-type {
 
 footer > div:first-of-type {
     margin-top: 1rem;
-    overflow: ;
+    overflow: hidden;
+    border: 1px solid palegreen;
 }
 
 footer > div:first-of-type > div{
@@ -337,7 +338,10 @@ footer > div:first-of-type > div > h2{
 
 footer > div:first-of-type > small{
     float: right;
-    
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 1px solid salmon;
+
 }
 
 footer > div:last-child {
