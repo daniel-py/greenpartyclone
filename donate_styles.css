@@ -294,7 +294,7 @@ header > div:last-child > h3 > span {
 footer {
     width: 60%;
     margin: auto;
-    border: 1px solid sandybrown;
+    border: 1px  sandybrown;
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -314,12 +314,36 @@ footer > p:first-of-type {
     text-align: left;
 }
 
+footer > div:first-of-type {
+    margin-top: 1rem;
+    overflow: ;
+}
+
 footer > div:first-of-type > div{
-    floa
+    float: left;
+    border: 1px  darkgoldenrod;
+    vertical-align: ;
+    overflow: hidden;
+    padding-left: 4rem;
+}
+
+footer > div:first-of-type > div > h2{
+    display: inline-block;
+    border-left: 1px  solid black;
+    height:;
+    margin: 0 0 2rem 1rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    vertical-align: ;
+}
+
+footer > div:first-of-type > small{
+    float: right;
 }
 
 footer > div:last-child {
-    margin-top: 4rem;
+    clear: both;
+    margin-top: 9rem;
     line-height: 2rem;
     letter-spacing: 2.5px;
 }
