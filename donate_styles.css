@@ -323,22 +323,21 @@ footer > div:first-of-type > div{
     float: left;
     border: 1px  darkgoldenrod;
     vertical-align: ;
-    overflow: hidden;
     padding-left: 4rem;
+    display: flex;
+    align-items: center;
 }
 
 footer > div:first-of-type > div > h2{
-    display: inline-block;
     border-left: 1px  solid black;
-    height:;
-    margin: 0 0 2rem 1rem;
-    padding-left: 1rem;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
     font-size: 3rem;
-    vertical-align: ;
 }
 
 footer > div:first-of-type > small{
     float: right;
+    
 }
 
 footer > div:last-child {
