@@ -80,12 +80,10 @@ header > div:last-child > h3 > span {
 #section-2 > form {
     display: flex;
     flex-wrap: wrap;
-    align-items: ;
 }
 
 #section-2 > form > fieldset:first-child {
     width: 50%;
-    flex: ;
     order: 1;
     border: none;
     padding-right: 2rem;
@@ -97,16 +95,13 @@ header > div:last-child > h3 > span {
     flex-wrap: wrap;
     gap: 1rem;
     width: 80%;
-    border: 1px  blueviolet;
     margin-bottom: 1.3rem;
 }
 
 #support > * {
     flex: 0 0 20%;
-    /* min-width: rem; */
     padding: 0;
     border: 1px solid lightgrey;
-    height: ;
     position: relative;
 }
 
@@ -118,7 +113,7 @@ header > div:last-child > h3 > span {
 
 #support > div > label {
     display: inline-block;
-    padding: 1.5rem ;
+    padding: 1.5rem;
     text-align: center;
     white-space: nowrap;
     cursor: pointer;
@@ -131,9 +126,7 @@ header > div:last-child > h3 > span {
     opacity: 0;
 }
 
-#support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover /*,
-#support > div > input[type="radio"]:checked ~ label */ { 
-    transition: ;
+#support > div > input[type="radio"]:hover + label, #support > div > input[type="radio"]:checked + label, #support > div:last-child:hover { 
     background-color: green;
     color: white;
     transition: background-color .3s ease-in-out;
@@ -154,6 +147,14 @@ header > div:last-child > h3 > span {
 
 #support input[placeholder="GBP Other"]::-webkit-outer-spin-button, #support input[placeholder="GBP Other"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
+}
+
+input[placeholder="ZIP/Postal Code *"]::-webkit-outer-spin-button, input[placeholder="ZIP/Postal Code *"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[placeholder ^="Credit"]::-webkit-outer-spin-button, input[placeholder ^="Credit"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 #gbpotherr {
