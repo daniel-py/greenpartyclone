@@ -47,9 +47,13 @@ nav {
     align-items: center;
 }
 
-.nav-container ul > * {
-    margin-left: 2em;
-}
+.nav-container ul > * {margin-left: 2em;}
+
+ul.appear {display: none;}
+
+ul.appear i {color:  #52df00;}
+
+ul.appear > div {display: none;}
 
 .nav-container a, .nav-container button {
     color: #212529;
@@ -667,5 +671,7 @@ footer > div:last-child > p {
 }
 
 @media (max-width:1024px) {
+    ul.appear {display: inline-block;}
     
+    ul.diss {display: none;}
 }
