@@ -665,3 +665,7 @@ footer > div:last-child > p {
     text-align: center;
     padding-bottom: 1rem;
 }
+
+@media (max-width:1024px) {
+    
+}
