@@ -12,6 +12,7 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
     color: #212529;
+    overflow-x: hidden;
 }
 
 a {
@@ -51,9 +52,16 @@ nav {
 
 ul.appear {display: none;}
 
-ul.appear i {color:  #52df00;}
+ul.appear:hover div {
+    display: block;
+}
 
-ul.appear > div {display: none;}
+ul.appear i {color: #52df00; font-size: 2rem;}
+
+ul.appear > div {
+    display: none;
+    margin-top: 10rem;
+}
 
 .nav-container a, .nav-container button {
     color: #212529;
