@@ -15,15 +15,15 @@ docReady(function() {
     let check = 0;
 
     menu.addEventListener('click', function(e){
-        if(check==0){
+        if(check == 0){
             console.log("clicked on");
             menu_dd.style.display = "block";
-            menu.style.color = "green";
+            //menu.style.color = "green";
             check = 1;
         } else {
             console.log("clicked off");
             menu_dd.style.display = "none";
-            menu.style.color = "#52df00";
+            //menu.style.color = "#52df00";
             check = 0;
         }
     })
