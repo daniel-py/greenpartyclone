@@ -10,7 +10,14 @@ function docReady(fn) {
 
 docReady(function() {
     // DOM is loaded and ready for manipulation here
+    let menu = document.querySelector(".menu");
+    let menu_dd = document.querySelector("ul.appear");
+    let check = 0;
 
-    
+    menu.addEventListener('click', function(e){
+        if(check===0){
+            menu_dd.style.display = "block";
+        }
+    })
 });
 
